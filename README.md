@@ -1,1 +1,192 @@
-# portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandeep Personal Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: white;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-top: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 40px 0;
+            background-color: #fff;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            font-size: 1.1em;
+            margin: 8px 0;
+        }
+
+        .projects {
+            display: flex;
+            gap: 20px;
+        }
+
+        .project {
+            flex: 1;
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .project img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+        }
+
+        .social-links img {
+            width: 40px;
+            height: 40px;
+            transition: transform 0.3s;
+        }
+
+        .social-links img:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .projects {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="sandeep.jpg" alt="Sandeep Kumar Yadav Profile Photo" class="profile-img">
+            <h1>SANDEEP KUMAR YADAV</h1>
+            <p>Web Developer | Creative Thinker | Problem Solver</p>
+        </div>
+    </header>
+
+    <section class="bio">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! My name is Sandeep. I am a web developer with experience in creating responsive and user-friendly websites. I love coding and constantly learning new technologies. My goal is to build creative and efficient web solutions. Currently, I am studying at Maharaja College, Jaipur.</p>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ol type="I">
+                <li>HTML, CSS, JavaScript</li>
+                <li>Responsive Web Design</li>
+                <li>React, Node.js</li>
+                <li>Version Control (Git)</li>
+                <li>C Language</li>
+                <li>C++ Language</li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <p>Check my Resume I have worked on:</p>
+            <div class="resume">
+                <img src="sr.jpg" alt=" Resume of sandeep">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, you can reach me at:</p>
+            <ul>
+                <li>Email: sandeepyadav8058783911@gmail.com</li>
+                <li>Phone: +91-9257175332</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="social-media">
+        <div class="container">
+            <h2>Find Me On</h2>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/sandeep-yadav-9b735b319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.youtube.com/@Sandeepmbsar" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sandeep Kumar Yadav. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
